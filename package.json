@@ -1,0 +1,26 @@
+{
+  "name": "super-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss src/super.css -o build/super.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houfu/super-experiments.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/houfu/super-experiments/issues"
+  },
+  "homepage": "https://github.com/houfu/super-experiments#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.15",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
+  }
+}
